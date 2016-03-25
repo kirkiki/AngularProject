@@ -1,9 +1,8 @@
 import {Page} from 'ionic-angular';
-import {Hello} from './hello';
+import {Play} from './Play';
 
 @Page({
   templateUrl: 'build/pages/page1/page1.html',
-  directives:[Hello]
+  directives:[Play]
 })
 export class Page1 {}
-
