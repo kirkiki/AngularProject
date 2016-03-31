@@ -5,13 +5,7 @@ import {Component} from 'angular2/core'
 
 @Component({
     selector:`mots`,
-    template:`<ion-slides>
-    <li>rouge</li>
-    <li>vert</li>
-    <li>bleu</li>
-    </ion-slides>
-    `
+    template:`<p>ddd</p> `
 })
 export class MotsCouleurs{
-
 }
