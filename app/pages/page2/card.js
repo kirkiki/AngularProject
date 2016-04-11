@@ -10,7 +10,10 @@ import {IONIC_DIRECTIVES} from 'ionic-angular';
     selector: 'card', // Element HTML qui permettra d'utiliser le composant
     template: `
         <ion-card>
-            <img [src]="card.imageUrl">
+         <img [src]="card.imageUrl">
+            <ion-card-title>
+                {{card.title}}
+            </ion-card-title>
         </ion-card>
 `,
     directives: [IONIC_DIRECTIVES]

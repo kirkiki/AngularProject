@@ -6,6 +6,6 @@ import {CardList} from './card-list';
 
 @Page({
   templateUrl: 'build/pages/page2/page2.html',
-  directives:[Choix,MotsCouleurs,CardList, Questions],
+  directives:[Choix,MotsCouleurs,CardList, Questions]
 })
 export class Page2 {}
