@@ -18,16 +18,7 @@ import {Component} from 'angular2/core'
     `,
     directives: [IONIC_DIRECTIVES, Card]
 })
-/*export class CardList1 {
- constwructor() {
- this.cards = [
- {imageUrl: 'Images/1-rouge.png'},
- {imageUrl: 'Images/7-noir.png'},
- {imageUrl: 'Images/a-violet.png'},
- {imageUrl: 'Images/carre-orange.png'}
- ]
- }
- }*/
+
 
 export class CardList {
     constructor() {
